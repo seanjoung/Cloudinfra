@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Output
+output/*
+
+# Logs
+logs/*
+
+# Sensitive config
+config/inventory.yaml
+config/*.secret
+config/*.key
+
+# OS
+*.swp
+*.DS_Store
