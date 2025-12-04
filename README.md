@@ -199,8 +199,8 @@ cicd_servers:
   jenkins_primary:
     name: "Jenkins #1"
     hostname: "scsic-ishpjenkins1"
-    ip: "10.105.247.11"        # 실제 IP
-    ssh_port: 22
+    ip: "10.x.x.x"        # 실제 IP
+    ssh_port: xx
     services:
       - name: "Jenkins"
         port: 8080
@@ -212,20 +212,20 @@ dev_cluster:
   masters:
     - name: "Master #1"
       hostname: "scsic-dicmpmst1"
-      ip: "10.105.247.21"
-      ssh_port: 22
+      ip: "10.x.x.x"
+      ssh_port: xx
   workers:
     - name: "Worker #1"
       hostname: "scsic-dicmpwok1"
-      ip: "10.105.247.24"
-      ssh_port: 22
+      ip: "10.x.x.x"
+      ssh_port: xx
   databases:
     - name: "DB #1"
       hostname: "scsic-dicmpdb1"
-      ip: "10.103.64.60"
+      ip: "10.x.x.x"
       services:
         - name: "MySQL"
-          port: 3306
+          port: xxxx
 
 # SSH 설정
 ssh_config:
